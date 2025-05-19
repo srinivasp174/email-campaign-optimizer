@@ -21,7 +21,7 @@ This project analyzes email marketing campaign data to optimize click-through ra
 
 ### Segment Analysis
 
-Our analysis revealed several interesting patterns across different user segments:
+Analysis revealed several interesting patterns across different user segments:
 
 - **Email Content**: Short vs. long email text performance differences
 - **Personalization**: Impact of personalized vs. generic greetings
@@ -31,7 +31,7 @@ Our analysis revealed several interesting patterns across different user segment
 
 ### Model Performance
 
-We built and compared multiple machine learning models:
+ Multiple machine learning models were built and compared:
 
 1. **Logistic Regression**: Baseline model with balanced class weights
 2. **Random Forest**: Ensemble approach with improved performance
@@ -80,20 +80,13 @@ By implementing the model-driven targeting approach:
 
 ### A/B Testing Methodology
 
-To validate our approach, we recommend:
+To validate our approach,
 
 1. Dividing users into two equal groups
 2. Sending to group A using model-based targeting
 3. Sending to group B randomly (current approach)
 4. Measuring click-through rates for both groups
 5. Comparing results to quantify actual improvement
-
-## Future Directions
-
-1. **Deeper Personalization**: Tailoring email content based on user preferences
-2. **Time Optimization**: Determining optimal sending times for each user
-3. **Content Testing**: A/B testing different email formats and messaging
-4. **Dynamic Modeling**: Regularly updating models as new data becomes available
 
 ## Technical Requirements
 
